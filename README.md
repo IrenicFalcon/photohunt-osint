@@ -3,7 +3,6 @@
 [![PyPI Version](https://img.shields.io/pypi/v/photohunt-osint)](https://pypi.org/project/photohunt-osint/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/photohunt-osint)](https://pypi.org/project/photohunt-osint/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Downloads](https://img.shields.io/pypi/dm/photohunt-osint)](https://pypi.org/project/photohunt-osint/)
 
 **PhotoHunt OSINT** - современная библиотека для поиска лиц по открытым источникам. Идеально подходит для:
 - Журналистских расследований 🕵️♂️
