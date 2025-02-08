@@ -46,7 +46,7 @@ def print_banner():
   ███          ███    ███   ███    ███     ███     ███    ███        ███    ███   ███    ███ ███   ███     ███     
  ▄████▀        ███    █▀     ▀██████▀     ▄████▀    ▀██████▀         ███    █▀    ████████▀   ▀█   █▀     ▄████▀   
                                                                                                                    
-                                                                                                                                                                                                                                                                                                                                                                                                                   PhotoHunt Version — 1.0.1"""
+                                                                                                                                                                                                                                                                                                                                                                                                                   PhotoHunt Version — 1.0.2"""
                                                                              
     print(RED + banner + RESET)
     
@@ -223,7 +223,7 @@ def parse_filters(raw_filters: list[str]) -> list[dict[str, Any]]:
             
     return filters
 
-async def main():
+async def async_main():
     print_banner()
     check_python_version()
     parser = init_argparse()
@@ -314,6 +314,9 @@ async def main():
         print(BLUE + "⚙️ Скрипт завершает свою работу" + RESET)
         
         await client.close()
-        
+
+def main():
+    asyncio.run(async_main())
+         
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

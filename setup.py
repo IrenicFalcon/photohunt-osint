@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="photohunt-osint",  
-    version="1.0.1",       
+    version="1.0.2",       
     author="IrenicFalcon",      
     description="OSINT photo search for people based on Search4Faces", 
     long_description=open("README.md").read(), 
