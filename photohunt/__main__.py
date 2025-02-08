@@ -46,7 +46,7 @@ def print_banner():
   ███          ███    ███   ███    ███     ███     ███    ███        ███    ███   ███    ███ ███   ███     ███     
  ▄████▀        ███    █▀     ▀██████▀     ▄████▀    ▀██████▀         ███    █▀    ████████▀   ▀█   █▀     ▄████▀   
                                                                                                                    
-                                                                                                                                                                                                                                                                                                                                                                                                                   PhotoHunt Version — 1.0"""
+                                                                                                                                                                                                                                                                                                                                                                                                                   PhotoHunt Version — 1.0.1"""
                                                                              
     print(RED + banner + RESET)
     
